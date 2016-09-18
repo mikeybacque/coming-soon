@@ -1,0 +1,69 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Tenor Sans', sans-serif;
+  background-color: #eee;
+  margin: 0em;
+}
+
+h1 {
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  display: inline-block;
+  padding-left: 1em;
+  padding-top: 0.5em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: normal;
+  color:  blue;
+  z-index: 10;
+}
+
+address {
+  line-height: 2.5;
+  padding-left: 1.5em;
+}
+
+.insta {
+  width: 47px;
+}
+
+.nav {
+  display: inline;
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+
+.me {
+  margin: 0em;
+  padding:  1em 0em 1em 1em;
+  width: 70%;
+  position: fixed;
+  top: 8em;
+  right: 0;
+  z-index: -1;
+}
+
+.email {
+  font-style: normal;
+}
