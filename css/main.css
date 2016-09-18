@@ -67,4 +67,7 @@ address {
 
 .email {
   font-style: normal;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: blue;
 }
